@@ -37,3 +37,29 @@
 	`subl README.md`
 
 	`git add README.md`
+
+9. Commit changes to the "development" branch with a commit message:
+
+	`git commit -m "added instructions to README.md"`
+
+10. Merge changes from the "development" branch into the "main" branch:
+
+	`git checkout main`
+
+	`git merge development`
+
+11. Check the status, make sure everything is up to date:
+
+	`git status`
+
+	`git push origin main`
+
+12. Commit the changes:
+
+	`subl README.md`
+
+	`git add README.md`
+
+	`git commit -m "added full instructions to README.md"`
+
+	`git push origin main`
